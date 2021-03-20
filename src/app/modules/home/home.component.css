@@ -1,0 +1,46 @@
+.container {
+  height: 100%;
+  background-color: #841A1EC2;
+  opacity: 0.93;
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+.title-container {
+  overflow: hidden;
+}
+
+.body-container {
+  margin-top: 70px;
+}
+
+.paragraph-container {
+  width: 400px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title, .paragraph-container {
+  font-weight: 300;
+}
+
+.image-responsive {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  .image-responsive {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-container {
+    margin-top: 70px;
+  }
+  .image-responsive {
+    max-width: 200px;
+  }
+}
