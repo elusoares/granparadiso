@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "granParadiso": {
+    "gran-paradiso": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "granParadiso:build"
+            "browserTarget": "gran-paradiso:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "granParadiso:build:production"
+              "browserTarget": "gran-paradiso:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "granParadiso:build"
+            "browserTarget": "gran-paradiso:build"
           }
         },
         "test": {
@@ -109,15 +109,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "granParadiso:serve"
+            "devServerTarget": "gran-paradiso:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "granParadiso:serve:production"
+              "devServerTarget": "gran-paradiso:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "granParadiso"
+  "defaultProject": "gran-paradiso"
 }
