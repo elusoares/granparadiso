@@ -1,8 +1,11 @@
 {
   "extends": "tslint:recommended",
   "rules": {
+    "no-trailing-whitespace": false,
+    "prefer-const": false,
     "array-type": false,
     "arrow-parens": false,
+    "no-string-literal": false,
     "deprecation": {
       "severity": "warning"
     },
