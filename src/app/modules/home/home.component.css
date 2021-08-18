@@ -1,6 +1,6 @@
 .container {
   height: 100%;
-  background-color: #841A1EC2;
+  background-color: #ffc342;
   opacity: 0.93;
   color: white;
   text-align: center;
@@ -24,6 +24,11 @@
 
 .title, .paragraph-container {
   font-weight: 300;
+
+}
+
+.title {
+  text-transform: uppercase;
 }
 
 .image-responsive {

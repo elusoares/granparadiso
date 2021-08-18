@@ -1,0 +1,10 @@
+.container, .razao-social, .cnpj {
+  display: block;
+}
+
+.container {
+  padding: 10px;
+  background-color: #f86719;
+  font-size: 12px;
+  color: white;
+}

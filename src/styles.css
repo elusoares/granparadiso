@@ -1,7 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@font-face {
+  font-family: 'Louis George Café Bold';
+  src: url('/src/assets/fonts/Louis\ George\ Cafe\ Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Louis George Café';
+  src: url('/src/assets/fonts/Louis\ George\ Cafe.ttf');
+}
+
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Poppins', sans-serif; }
+body { margin: 0; font-family: 'Louis George Café'; }
 /* Quando o body parece estar descolacado do margin-top, procure ver se nao tem algum child com
 margem colapsada. Para resolver, pode-se wrapp o child numa div e setar overflow hidden nessa div */
